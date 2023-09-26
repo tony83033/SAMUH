@@ -1,0 +1,9 @@
+
+
+docker build -t samuhVideoTranscoder .
+
+
+
+docker run -it -v/User/sample:/home/videos samuh
+
+whisper sample.mov --language Hindi --task translate
